@@ -28,13 +28,14 @@ public class Showroom {
          dis=0.0;cost=0.0;amount=0.0;
     }
     public void input(){
-        Scanner obj = new Scanner(System.in);
+        Scanner obj  = new Scanner(System.in);
         System.out.print("enter name: ");
         name = obj.next();
         System.out.print("enter mobilenumber: ");
         mobno = obj.nextLong();
         System.out.print("enter cost: ");
         cost = obj.nextDouble();
+        obj.close();
     }
     public void calculate(){
         if(cost<=10000){
@@ -62,6 +63,7 @@ public class Showroom {
         sc.calculate();
         sc.display();
     }
+    
 
 
 }
