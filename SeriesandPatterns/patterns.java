@@ -6,7 +6,8 @@ public class patterns {
         //pattern2(1);
         //pattern3();
         //pattern4();
-        pattern5();
+        //pattern5();
+        pattern6();
     }
         static void pattern1(int s){
             // S = x1 - x2 + x3 - x4 + x5 .......... - x20
@@ -86,7 +87,22 @@ public class patterns {
                 System.out.println();
             }
 
-        }
+        }    
+         static void pattern6(){
+            /*
+
+           *               
+          * * 
+         * * * 
+        * * * * 
+       * * * * *
+       
+        */     
+    
+    System.out.println("helloworld");
+    
+    
+    }
 
 
 
