@@ -8,6 +8,7 @@ public class employee {
     String ename; //employee name
     int age; // age of employee
     int basic; // basic salary of employee
+    double net; //net income of employee
     void accept(){
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter your name: ");
@@ -20,7 +21,6 @@ public class employee {
         basic = obj.nextInt();
     }
     void calculate(){
-        double net;
         double hra;
         double da;
         double pf;
@@ -37,7 +37,7 @@ public class employee {
         System.out.println("Name of employee: "+ename);
         System.out.println("Age of employee: "+age);
         System.out.println("Basic pay of employee: "+basic);
-        System.out.println("Net income of employee: "+);
+        System.out.println("Net income of employee: "+net);
 
     }
     public static void main (String args []){
