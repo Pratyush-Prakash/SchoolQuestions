@@ -1,3 +1,5 @@
+package normalprograms;
+
 import java.util.Scanner;
 public class DigitofaNUMBER {
     public static void main (String args []) {

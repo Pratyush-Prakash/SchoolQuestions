@@ -1,3 +1,4 @@
+package normalprograms;
 import java.util.Scanner;
 /*sum of digits = products of digit*/
 public class SPYnumber {
