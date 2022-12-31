@@ -37,6 +37,11 @@ public static void main(String args[]) {
             c++;
     }
     System.out.println("Total number of words starting with letter 'A' = " + c);
+
+
+
+
+
 }
 
 
