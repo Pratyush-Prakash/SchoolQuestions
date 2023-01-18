@@ -7,7 +7,7 @@ public class bubblearray {
         int l = list.length;
         for(int i=0;i<l;i++)
         {
-            for(int j=0;j<l-i-1;j++)
+            for(int j=0;j<l-1;j++)
             {
                 if(list[j]>list[j+1])
                 {
