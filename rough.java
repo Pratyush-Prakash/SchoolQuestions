@@ -3,46 +3,30 @@ public class rough {
 
     public static void main(String args [])
     {
-        // Bubble Sort
+        // linear search
         Scanner obj = new Scanner(System.in);
-        String arr[] = new String[10];
-        System.out.println("Enter elements of array: ");
-        for(int i =0;i<arr.length;i++)
+        int array[] = new int[5];
+        int n;
+        System.out.println("Enter values of array: ");
+        for(int i =0;i< array.length;i++)
         {
-            arr[i] = obj.nextLine();
+            array[i] = obj.nextInt();
         }
-        System.out.println("Unsorted array: ");
-        for(int i=0;i<arr.length;i++)
+        System.out.println("Values of array: ");
+        for(int i =0;i< array.length;i++)
         {
-            System.out.println(arr[i]);
+            System.out.println(array[i]);
         }
-        for(int i=0;i<arr.length;i++)
+        System.out.println("Enter number to be searched: ");
+        n = obj.nextInt();;
+        for(int i=0;i<array.length;i++)
         {
-            for(int j=0;j<arr.length-1;j++)
-            {
-                if(arr[j+1].compareTo(arr[j])>0)
-                {
-                    String temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
-                }
-
+            if(array[i] == n){
+                System.out.println(i);
+                break;
             }
+
         }
-        System.out.println("Sorted array: ");
-        for(int i=0;i<arr.length;i++)
-        {
-            System.out.println(arr[i]);
-        }
-
-
-
-
-
-
-
-
-
 
     }
 
