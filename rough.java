@@ -1,34 +1,89 @@
 import java.util.Scanner;
 public class rough {
 
-    public static void main(String args [])
-    {
-        // linear search
+    public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        int array[] = new int[5];
-        int n;
+        int[] arr = new int[5];
+        int index =-1;
+        int start,mid,end;
         System.out.println("Enter values of array: ");
-        for(int i =0;i< array.length;i++)
+        for(int i=0;i<arr.length;i++)
         {
-            array[i] = obj.nextInt();
+            arr[i] = obj.nextInt();
         }
-        System.out.println("Values of array: ");
-        for(int i =0;i< array.length;i++)
+        System.out.println("Enter number to search: ");
+        int n = obj.nextInt();
+        start = 0;
+        end = arr.length-1;
+        while(start<=end)
         {
-            System.out.println(array[i]);
-        }
-        System.out.println("Enter number to be searched: ");
-        n = obj.nextInt();;
-        for(int i=0;i<array.length;i++)
-        {
-            if(array[i] == n){
-                System.out.println(i);
+            mid =(start+end)/2;
+            if(n==arr[mid])
+            {
+                index = mid;
                 break;
-            }
-
+            }else if(n<arr[mid])
+            {
+                end = mid-1;
+            }else
+                start = mid+1;
         }
+        System.out.println(index);
+
 
     }
+}
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

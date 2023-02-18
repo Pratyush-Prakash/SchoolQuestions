@@ -3,11 +3,11 @@ package array;
 public class bubblearray {
     public static void main (String args [])
     {
-        int list[] = {7,8,3,1,2};
+        int list[] = {1,4,3,2,8,7,10,9};
         int l = list.length;
-        for(int i=0;i<l;i++)
+        for(int i=0;i<l-1;i++)
         {
-            for(int j=0;j<l-1;j++)
+            for(int j=0;j<l-i-1;j++)
             {
                 if(list[j]>list[j+1])
                 {
