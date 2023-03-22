@@ -3,10 +3,10 @@ import java.util.*;
 public class binarysearch {
 public static void main (String args []) {
   Scanner obj = new Scanner(System.in);
+    int[] array = new int[5];
   int n;
   int index = -1;
   int start,end,mid;
-  int[] array = new int[5];
     System.out.println("Enter values of array: ");
   for(int i=0;i<array.length;i++)
   {

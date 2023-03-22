@@ -1,10 +1,17 @@
 package array;
 
+import java.util.Scanner;
+
 public class bubblearray {
     public static void main (String args [])
     {
-        int list[] = {1,4,3,2,8,7,10,9};
+        Scanner obj = new Scanner(System.in);
+        int list[] = new int[10];
         int l = list.length;
+        for(int i=0;i<l;i++)
+        {
+            list[i] = obj.nextInt();
+        }
         for(int i=0;i<l-1;i++)
         {
             for(int j=0;j<l-i-1;j++)

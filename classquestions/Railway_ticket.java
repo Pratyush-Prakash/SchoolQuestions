@@ -1,4 +1,4 @@
-package boardquestions;
+package classquestions;
 import java.util.Scanner;
 public class Railway_ticket {
     String name;

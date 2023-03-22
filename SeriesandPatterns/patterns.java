@@ -9,6 +9,7 @@ public class patterns {
         //pattern5();
         //pattern6();
         //pattern7();
+
     }
         static void pattern1(int s){
                 // S = x1 - x2 + x3 - x4 + x5 .......... - x20
@@ -128,6 +129,9 @@ public class patterns {
             System.out.println();
         }
     }
+
+
+
 
 
 

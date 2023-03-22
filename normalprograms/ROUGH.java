@@ -1,24 +1,98 @@
 package normalprograms;
-
+import java.util.Scanner;
 public class ROUGH {
-    public static void main (String args[]){
-       /* for(;;){
-            int i=1;
-            System.out.println(i);
-         }
-         */
-       /*     int i = 124;
-            while(i>0){
-                int d = i%10;
-                System.out.println(d);
-                i=i/10;
-            }
-            */
-        char ch='a';
-        while(ch<= 'z'){
-            System.out.println(ch);
-            ch++;
-        }
+    public static void main(String args[]) {
+        Scanner obj = new Scanner(System.in);
+        String[] array = new String[10];
+        System.out.println("Enter values of array: ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
